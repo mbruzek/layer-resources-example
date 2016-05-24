@@ -1,0 +1,14 @@
+name: resources-example
+summary: A layer to test the resources feature in Juju.
+maintainer: Matthew Bruzek <Matthew.Bruzek@canonical.com>
+description: |
+  This is a charm layer to test the resources feature of Juju 2.0+
+tags:
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://jujucharms.com/docs/stable/authors-charm-metadata
+  - misc
+resources:
+  software:
+    type: file
+    filename: software.tgz
+    description: "The software to install in this charm."
