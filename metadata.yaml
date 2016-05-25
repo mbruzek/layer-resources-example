@@ -10,5 +10,5 @@ tags:
 resources:
   software:
     type: file
-    filename: software.tgz
+    filename: software.zip
     description: "The software to install in this charm."
